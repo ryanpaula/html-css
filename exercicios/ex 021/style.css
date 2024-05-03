@@ -1,0 +1,47 @@
+@charset "UTF-08";
+
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: gray;
+        margin: 0px;
+    }
+    nav{
+        background-color: aliceblue;
+        box-shadow: 03px 1px 1px rgba(0, 0, 0, 0.227);
+        border-radius: 20px;
+    }
+    header{
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+    main{
+        text-align:justify;
+        background-color: white;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px 40px;
+    }
+    article > aside{
+        text-align: right;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 01px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    footer > p{
+        margin: 4px;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        
+        border-radius: 50px;
+    }
